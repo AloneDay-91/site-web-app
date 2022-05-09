@@ -10,71 +10,88 @@
     <%- include('../partials/header'); %>
 </header>
 
-<main>
-    <div class="main-div">
-      <div class="title-main">
-        <h1 class="text-title">Bootstrap</h1>
-        <h3 class="text-content">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</h3>
-        <div class="btn-title">
-          <ul>
-            <li><button id="btn-title">Get started</button></li>
-            <li><button id="btn-title2" class="btn btn-outline-secondary">Download</button></li>
+<main class="main-docs">
+    <div class="row-docs">
+      <div class="col-sm-4">
+        <nav class="nav-docs">
+          <ul class="ul-docs">
+            <li class="li-docs">
+              <details>
+                <summary>
+                  <span>DOCS SETTINGS</span>
+                </summary>
+                <a href="" class="link-docs">
+                  <div class="alert-docs">
+                    <span class="text-docs">Welcome</span>
+                  </div>
+                </a>
+              </details>
+            </li>
+            <li class="li-docs">
+              <details>
+                <summary>
+                    <span>GENERAL</span>
+                </summary>
+                <a href="" class="link-docs">
+                  <div class="alert-docs">
+                    <span class="text-docs">Welcome</span>
+                  </div>
+                </a>
+                <a href="" class="link-docs">
+                  <div class="alert-docs">
+                    <span class="text-docs">Welcome</span>
+                  </div>
+                </a>
+                <a href="" class="link-docs">
+                  <div class="alert-docs">
+                    <span class="text-docs">Welcome</span>
+                  </div>
+                </a>
+                <a href="" class="link-docs">
+                  <div class="alert-docs">
+                    <span class="text-docs">Welcome</span>
+                  </div>
+                </a>
+                <a href="" class="link-docs">
+                  <div class="alert-docs">
+                    <span class="text-docs">Welcome</span>
+                  </div>
+                </a>
+              </details>
+            </li>
+            <li class="li-docs">
+              <details>
+                <summary>
+                    <span>CLASSES</span>
+                </summary>
+                <a href="">test</a>
+              </details>
+            </li>
+            <li class="li-docs">
+              <details>
+                <summary>
+                    <span>TYPEDEFS</span>
+                </summary>
+                <a href="">test</a>
+              </details>
+            </li>
           </ul>
-          <div class="list-vers">
-            <ul class="list-vers">
-              <li class="list-vers"><p>Currently <b>v5.1.3</b></p></li>
-              <li class="list-vers-a"><a href="" class="list-a"> v4.6.x docs </a></li>
-              <li class="list-vers-a"><a href="" class="list-a">All releases</a></li>
-            </ul>
-          </div>
-        </div>
+        </nav>
       </div>
-      <div class="img-title">
-        <img src="https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" alt="logo" class="img">
-      </div>
-    </div>
-    <p class="space"></p>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <h2 class="title-col">Installation</h2>
-          <h5 class="title-v2-col">Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.</h5>
-          <p class="content-col">Package managed installs don’t include documentation or our full build scripts. You can also <a href=""> use our npm template repo </a> to quickly generate a Bootstrap project via npm.</p>
-          <button class="btn-col">Read installation docs</button>
+      <div class="col-sm-8">
+        <div class="div-title-docs">
+          <h1 class="title-doc">Bootstrap</h1>
         </div>
-        <div class="col-md-7">
-          <div class="space-high"></div>
-          <div class="highlights">
-            <code class="language-sh" data-lang="sh">$ npm install bootstrap</code>
-            <button type="button" class="btn-clipboard" data-bs-original-title="Copy to clipboard">Copy</button>
-          </div>
-          <p class="space-code"></p>
-          <div class="highlights">
-            <code class="language-sh" data-lang="sh">$ npm install bootstrap</code>
-            <button type="button" class="btn-clipboard" data-bs-original-title="Copy to clipboard">Copy</button>
-          </div>
-        </div>
-       <div class="col-md-5">
-          <h2 class="title-col">jsDelivr</h2>
-          <h5 class="title-v2-col">When you only need to include Bootstrap’s compiled CSS or JS, you can use <a href="">jsDelivr</a>.</h5>
-          <p class="content-col">See it in action with our simple <a href="">starter template</a>, or <a href="">browse the examples</a> to jumpstart your next project. You can also choose to include Popper and our JS <a href="">separately</a>.</p>
-          <button class="btn-col">Explore the docs</button>
-        </div>
-        <div class="col-md-7">
-          <div class="space-high"></div>
-          <div class="highlights">
-            <code class="language-html" data-lang="html">$ npm install bootstrap</code>
-            <button type="button" class="btn-clipboard" data-bs-original-title="Copy to clipboard">Copy</button>
-          </div>
-          <p class="space-code"></p>
-          <div class="highlights">
-            <code class="language-sh" data-lang="html">$ npm install bootstrap</code>
-            <button type="button" class="btn-clipboard" data-bs-original-title="Copy to clipboard">Copy</button>
-          </div>
-        </div>
+        <p class="badge-project">
+          <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Project-Info-blue?style=flat-square&logo=data:image/svg%2bxml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMjsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6IzBBNEVBRjsiIGQ9Ik0yNTYsNTEyYy02OC4zOCwwLTEzMi42NjctMjYuNjI5LTE4MS4wMi03NC45OEMyNi42MjksMzg4LjY2NywwLDMyNC4zOCwwLDI1Ng0KCVMyNi42MjksMTIzLjMzMyw3NC45OCw3NC45OEMxMjMuMzMzLDI2LjYyOSwxODcuNjIsMCwyNTYsMHMxMzIuNjY3LDI2LjYyOSwxODEuMDIsNzQuOThDNDg1LjM3MSwxMjMuMzMzLDUxMiwxODcuNjIsNTEyLDI1Ng0KCXMtMjYuNjI5LDEzMi42NjctNzQuOTgsMTgxLjAyQzM4OC42NjcsNDg1LjM3MSwzMjQuMzgsNTEyLDI1Niw1MTJ6Ii8+DQo8cGF0aCBzdHlsZT0iZmlsbDojMDYzRThCOyIgZD0iTTQzNy4wMiw3NC45OEMzODguNjY3LDI2LjYyOSwzMjQuMzgsMCwyNTYsMHY1MTJjNjguMzgsMCwxMzIuNjY3LTI2LjYyOSwxODEuMDItNzQuOTgNCglDNDg1LjM3MSwzODguNjY3LDUxMiwzMjQuMzgsNTEyLDI1NlM0ODUuMzcxLDEyMy4zMzMsNDM3LjAyLDc0Ljk4eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik0yNTYsMTg1Yy0zMC4zMjcsMC01NS0yNC42NzMtNTUtNTVzMjQuNjczLTU1LDU1LTU1czU1LDI0LjY3Myw1NSw1NVMyODYuMzI3LDE4NSwyNTYsMTg1eiBNMzAxLDM5NQ0KCVYyMTVIMTkxdjMwaDMwdjE1MGgtMzB2MzBoMTQwdi0zMEgzMDF6Ii8+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojQ0NFRkZGOyIgZD0iTTI1NiwxODVjMzAuMzI3LDAsNTUtMjQuNjczLDU1LTU1cy0yNC42NzMtNTUtNTUtNTVWMTg1eiIvPg0KCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNDQ0VGRkY7IiBwb2ludHM9IjMwMSwzOTUgMzAxLDIxNSAyNTYsMjE1IDI1Niw0MjUgMzMxLDQyNSAzMzEsMzk1IAkiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K"/></a>
+          <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Made%20with-C-1f425f.svg"/></a>
+          <a href="https://github.com/AloneDay-91/Ferme-alpage/releases"><img src="https://img.shields.io/github/downloads/AloneDay-91/Ferme-alpage/total.svg"/></a>
+          <a href="https://github.com/AloneDay-91/Ferme-alpage/releases/tag/v1.0.0"><img src="https://badge.fury.io/gh/AloneDay-91%2FFerme-alpage.svg"/></a>
+          <a href="https://github.com/ellerbrock/open-source-badges/"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"/></a>
+        </p>
       </div>
     </div>
-  </main>
+</main>
 
 <footer>
     <%- include('../partials/footer'); %>

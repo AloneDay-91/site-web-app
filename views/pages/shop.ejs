@@ -10,9 +10,9 @@
     <%- include('../partials/header'); %>
 </header>
 
-<main>
-    <div class="search">
-        <div>
+<main class="main-shop">
+    <div class="search" id="myHeader">
+        <div class="content-shop">
             <button class="panier" id="myBtn"><i class="fa-solid fa-cart-shopping"></i></button>
         </div>
         <div class="input-search">
@@ -283,6 +283,26 @@ span.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
   }
 }
 </script>
